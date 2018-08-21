@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="mainstyle.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Raleway|Roboto" rel="stylesheet">
+</head>
+<body>
+  <center>
+<h1 id="head"><span id="header">Visionar</span>y</h1>
+</center>
+<ul class="nav">
+  <li><a href="homePage.html"><i class="fa fa-home"></i> home</a></li>
+  <li><a href="prompts.html"><i class="fa fa-pencil"></i> prompts</a></li>
+  <li><a href="vi.html"><i class="fa fa-map-marker"></i> inspiration map</a></li>
+  <li><a href="poem.html"><i class="fa fa-pencil-square-o"></i> poems</a></li>
+  <li><a href="gallery.html"><i class="fa fa-paint-brush"></i> artwork</a></li>
+  <li><a href="visionary_about.html"><i class="fa fa-users"></i> about us</a></li>
+  <li><a href="forums.html"><i class="fa fa-rss-square"></i> forums</a></li>
+  <li><button id="buttonlogin"><a href="index.php">login</a></button></li>
+</ul>
+<div>
+  <center>
+    <h1 id="title"> </h1>
+    <p id="content"> </p>
+    <script src = "poem.js"></script>
+    <button id="buttonprompt" onclick=Get("https://www.poemist.com/api/v1/randompoems")>New Poem</button>
+  </center>
+</div>
+</body>
+</html>

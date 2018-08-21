@@ -1,0 +1,35 @@
+<html>
+<head>
+    <link href="https://cdn.rawgit.com/MatthewBarker/leaflet-wikipedia/master/example/leaflet.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
+    <link href="mainstyle.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway|Roboto" rel="stylesheet">
+</head>
+
+<body>
+  <center>
+    <p></p>
+    <h1 id="head"><span id="header">Visionar</span>y</h1>
+    <ul class="nav">
+      <li><a href="homePage.html"><i class="fa fa-home"></i> home</a></li>
+      <li><a href="prompts.html"><i class="fa fa-pencil"></i> prompts</a></li>
+      <li><a href="vi.html"><i class="fa fa-map-marker"></i> inspiration map</a></li>
+      <li><a href="poem.html"><i class="fa fa-pencil-square-o"></i> poems</a></li>
+      <li><a href="gallery.html"><i class="fa fa-paint-brush"></i> artwork</a></li>
+      <li><a href="visionary_about.html"><i class="fa fa-users"></i> about us</a></li>
+      <li><a href="forums.html"><i class="fa fa-rss-square"></i> forums</a></li>
+      <li><button id="buttonlogin"><a href="index.php">login</a></button></li>
+    </ul>
+  <p></p>
+    Zip Code: <input type = "text" name = "zip" id="zip"/>
+    <input id="buttonmap" type="button" onclick="zoomTo()" value="Enter"/>
+    <p></p>
+    <div id="mapid"></div>
+    <script src="https://cdn.rawgit.com/MatthewBarker/leaflet-wikipedia/master/example/bundle.js"></script>
+    <script type="text/javascript" src="coordinates.js"></script>
+    <script type="text/javascript" src="finalmap.js"></script>
+  </center>
+</body>
+</html>

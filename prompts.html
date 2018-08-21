@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="mainstyle.css" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Lato|Raleway|Roboto" rel="stylesheet">
+</head>
+<body>
+  <center>
+  <h1 id="head"><span id="header">Visionar</span>y</h1>
+</center>
+<ul class="nav">
+  <li><a href="homePage.html"><i class="fa fa-home"></i> home</a></li>
+  <li><a href="prompts.html"><i class="fa fa-pencil"></i> prompts</a></li>
+  <li><a href="vi.html"><i class="fa fa-map-marker"></i> inspiration map</a></li>
+  <li><a href="poem.html"><i class="fa fa-pencil-square-o"></i> poems</a></li>
+  <li><a href="gallery.html"><i class="fa fa-paint-brush"></i> artwork</a></li>
+  <li><a href="visionary_about.html"><i class="fa fa-users"></i> about us</a></li>
+  <li><a href="forums.html"><i class="fa fa-rss-square"></i> forums</a></li>
+  <li><button id="buttonlogin"><a href="index.php">login</a></button></li>
+</ul>
+<center>
+<h1 id="titleprompt">Prompt Generator</h1>
+<p id="prompts"></p>
+<script src="prompts.js"> </script>
+<h2 id="promptq">Which emotion best represents your current mood?</h2>
+<div class="buttonprompt1">
+
+      <button id="buttonprompt" onclick="printPrompts(calm_prompts)"><img src="calmmm.jpg" class="center" alt="" width = "120" height="120"> <p>Calm</p></button>
+      <button id="buttonprompt" onclick="printPrompts(loving_prompts)"><img src="lovelove.jpg" alt="" class="center" width = "120" height="120"><p>Loving</p></button>
+      <button id="buttonprompt" onclick="printPrompts(silly_prompts)"><img src="robot.jpg" alt="" class="center" width = "120" height="120"><p>Silly</p></button>
+      <button id="buttonprompt" onclick="printPrompts(optimistic_prompts)"><img src="happyyy.jpg" alt="" class="center" width = "120" height="120"><p>Optimistic</p></button>
+    </div>
+    <div class="buttonprompt1">
+      <button id="buttonprompt" onclick="printPrompts(depressed_prompts)"><img src="feelings.jpg" alt="" class="center" width = "120" height="120"><p>Depressed</p></button>
+      <button id="buttonprompt" onclick="printPrompts(hateful_prompts)"><img src="hate.jpg" alt="" class="center" width = "120" height="120"><p>Hateful</p></button>
+      <button id="buttonprompt"onclick="printPrompts(mysterious_prompts)"><img src="myster.jpg" alt="" class="center" width = "120" height="120"><p>Mysterious</p></button>
+      <button id="buttonprompt"onclick="printPrompts(angry_prompts)"><img src="notnice.jpg" alt="" class="center" width = "120" height="120"><p>Angry</p></button>
+    </div>
+  <p id="demo"></p>
+</center>
+
+</body>
+</html>
